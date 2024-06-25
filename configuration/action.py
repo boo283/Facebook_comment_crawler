@@ -173,6 +173,7 @@ def get_comments(driver, limit_text=2500):
         try:
             # Check if comment contains text
             text_ele = comment.find_element(By.XPATH, ".//div[contains(@class, 'xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs')]")
+            username = comment.find_element(By.XPATH, ".//span[@class='x3nfvp2']/span")
 
             if text_ele:
                 try:
@@ -196,6 +197,7 @@ def get_comments(driver, limit_text=2500):
                     is_spam = 0
                 treasured_comments.append({
                     "id" : cnt,
+                    "username": username.text,
                     "text": text,
                     'tag_name': name_tag,
                     'is_spam': is_spam
