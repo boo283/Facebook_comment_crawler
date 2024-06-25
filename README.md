@@ -4,7 +4,7 @@ This is the unofficial FACEBOOK COMMENTS CRAWLER in Python.
 The main purpose is support to my study.
 
  ## Main Fuction 
-- Crawl comments with related information such as: 
+- Scrape comments with related information such as: 
   - Comment - text 
   - User 
   - Nametag (like @name_tag) 
