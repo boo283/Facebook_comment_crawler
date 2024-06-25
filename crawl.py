@@ -63,8 +63,8 @@ if __name__ == '__main__':
     ite = 20 # Use to check whether it reaches the end of the page (Should be 20 - 30)
 
     # Login info
-    username = "quockietuit2021@gmail.com" #your fb username
-    password = "qk123456" #your fb password
+    username = "" #your fb username
+    password = "" #your fb password
 
     url = cf.get_url()
     driver = cf.configure_driver()
