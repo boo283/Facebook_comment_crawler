@@ -19,16 +19,16 @@ The main purpose is support to my study.
  ## Usage
  1. Clone this repository 
  2. Open this repository and add some information: 
-   #### In folder "configuration": 
-      - config.py:
-        - In function configure_driver(), replace by the path to your chrome driver, which could be download at
+ ### In folder "configuration": 
+- config.py:
+  - In function configure_driver(), replace by the path to your chrome driver, which could be download at
         ref: https://googlechromelabs.github.io/chrome-for-testing/#stable
-   #### In main folder: 
-      - crawl.py:  
-        - Just type your Facebook account in the Login info part in main function. 
-        - Choose your destination to save crawled data 
-  3. Cd to folder and run script: python crawl.py
-  4. Simply enter the Facebook URL post and press Enter
+ ### In main folder: 
+- crawl.py:  
+  - Just type your Facebook account in the Login info part in main function. 
+  - Choose your destination to save crawled data 
+ 3. Cd to folder and run script: python crawl.py
+ 4. Simply enter the Facebook URL post and press Enter
   ## Note
       - You must have a stable connection to ensure that this code run correctly  
       - Try to rerun this code if you have any web or driver exceptions 
