@@ -19,11 +19,11 @@ The main purpose is support to my study.
  ## Usage
  1. Clone this repository 
  2. Open this repository and add some information: 
-    In folder "configuration": 
+   #### In folder "configuration": 
       - config.py:
         - In function configure_driver(), replace by the path to your chrome driver, which could be download at
         ref: https://googlechromelabs.github.io/chrome-for-testing/#stable
-    In main folder: 
+   #### In main folder: 
       - crawl.py:  
         - Just type your Facebook account in the Login info part in main function. 
         - Choose your destination to save crawled data 
