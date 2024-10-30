@@ -152,10 +152,7 @@ def show_all_replies(driver, threshold, ite):
 def filter_spam(text):
     '''Filter spam comments based on user-defined keywords'''
 
-    spam_text = ['http', 'miễn phí', '100%', 'kèo bóng', 'khóa học', 'netflix', 'Net Flix', 'shopee', 'lazada', 'vào tường',
-        'cảm ơn', 'trang cá nhân','tham khảo', '18+', 'sex', 'see more', 'xem thêm', 'xem chi tiết', 'xem ngay', 'link', 'facebook',
-        'ᴋèo', 'ꜰʙ', 'Aᴇ', 'Á𝐎 𝐃Â𝐘', 'ᴋèo ʙóng', 'ʙeᴛ-ʙᴏɴg6666', 'ʙeᴛ.ʙᴏɴg.6666', '6666', 'vùng kín', 'viêm hôi', 'd,âm', 'zú', 'zâm', 'dâm', 'vck',
-        '𝒄𝒉𝒖̛𝒐̛𝒏𝒈 𝒕𝒓𝒊̀𝒏𝒉', '𝒉𝒂̂́𝒑 𝒅𝒂̂̃𝒏', '🎉', 'CỔNG GAME', 'NẠP RÚT', 'lồn', 'cặc']
+    spam_text = ['http', 'miễn phí', '100%', 'kèo bóng', 'khóa học', 'netflix', 'Net Flix', 'shopee', 'lazada']
     for spam in spam_text:
         if spam in text.lower():
             return True
